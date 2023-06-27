@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 nav {
     width: 100%;
     display: flex;
@@ -17,4 +21,52 @@ nav {
 
 .navLinks li {
     margin: 0px 10px;
+}
+
+#heroImage {
+    background-image: url(../img/surface_cleaner.JPEG);
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.heroText  h1{
+    position: absolute;
+    text-shadow: 4px 4px 4px #0006a6;
+    top: 75px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.heroText p {
+    position: absolute;
+    text-shadow: 4px 4px 4px #0006a6;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+}
+
+.heroText button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    background-color: rgb(255, 255, 255);
+}
+
+#servicesMenu {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
 }
