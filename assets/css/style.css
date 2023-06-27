@@ -1,4 +1,20 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
 #logo {
-    margin: 10px 5px;
-    max-height: 100px;
+    max-height: 60px;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLinks li {
+    margin: 0px 10px;
 }
