@@ -1,15 +1,44 @@
-/* #slides{
-    color: grey;
-    background-color: grey !important;
-  } */
-  
-  .carousel{
-    /* color: #00AFEF; */
-    background-color: #00AFEF !important;
-  }
+.carousel {
+  background-color: #00AFEF !important;
+}
 
-  /* .carousel .item{
-    height: 100px;
-    color: grey;
-    background-color: grey;
-  } */
+.carousel-inner img {
+  max-width: 100% !important;
+  max-height: 600px !important;
+}
+
+.carousel-item {
+  transition: transform 3s ease-in-out;
+  text-align: center;
+  /*WHY THE FUCK IS IT TEXT ALIGN CENTER THAT WORKS*/
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 2.6s;
+}
+
+.carousel-content {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 86px;
+  z-index: 20;
+  color: white;
+  text-shadow: 10px 2px 3px rgba(0,0,0,.6);
+}
+.carousel-content h1{
+  font-size: 60px;
+  width: 100%;
+  height: 600px;
+}
+
+.carousel-content h3{
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
