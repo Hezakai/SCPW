@@ -33,12 +33,10 @@
   font-size: 60px;
 }
 
-.carousel-content h3{
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 20;
-  bottom: 0px;
-}
+#services {
+  height: 350px;
+  /* position: absolute;
+  bottom: -238px;
+  z-index: 30; */
+} 
 
